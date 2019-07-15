@@ -22,12 +22,12 @@ neither the Erlang program nor the Java program will require a huge amount of so
 Instead, you will have to look at the problem differently in the two cases.
 
 
-TO run this :
+### TO run this :
 
 For java you need java environment.
 For erlang you have to setup erglang
 Compile commands:
-erlc bank.erl
-erlc money.erl
-erlc customer.erl
-run command : erl -noshell -s money start -s init stop
+`erlc bank.erl`
+`erlc money.erl`
+`erlc customer.erl`
+run command : `erl -noshell -s money start -s init stop`
